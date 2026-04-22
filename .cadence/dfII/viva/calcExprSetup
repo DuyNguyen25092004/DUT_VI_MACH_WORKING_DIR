@@ -1,0 +1,3 @@
+artistResMgrCalcExprSetup("true" "plot" "E1" "VS("/V1")")
+artistResMgrCalcExprSetup("true" "plot" "E2" "VS("/V2")")
+artistResMgrCalcExprSetup("false" "plot" "E0" "abs(getData("M0:id" ?result "dc")) / 10e-6")

@@ -1,0 +1,101 @@
+\# Program start time:     UTC 2026.03.29 08:52:41.315
+\# Local time: +07 (UTC+07:00) 2026.03.29 15:52:41.315
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 09/28/2022 11:07 (cpgsrv12) $
+\o Hierarchy:		/home/dtvt_16/CDNS_Client/IC618-ISR28/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.28  (64-bit addresses)
+\# Command line:	/home/dtvt_16/CDNS_Client/IC618-ISR28/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost dtvt16 -beanport 11300 -beanbinlog  -beanLogFile /home/dtvt_16/duyDUT/logs_dtvt_16/logs0/amps_Service6.log -mpssession virtuoso13411 -mpshost dtvt16 -davinciService DaVinciService_13411_1774771636 -axlSession fnxSession1 -axlServiceIdFlag 6 -uuid 530065d7-afca-4712-945a-c21a2ace6c09 -heartbeat /dev/shm/swift-heartbeat.xuBvFYL1xi -log /home/dtvt_16/duyDUT/logs_dtvt_16/logs0/Service6.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D4FA6DD6BCA06E37C21A1EB6BFC068D7B5CD28F1FFC06867C66E38F1FFC06BC4D66E38F1FFC06BC4D0F2B67481451D58500001E6F -interactive -offlineExprEval -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	dtvt16 (x86_64)
+\# Operating system:	Linux 3.10.0-1160.118.1.el7.x86_64 #1 SMP Wed Apr 24 16:01:50 UTC 2024
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:2022 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12004000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        635 MB
+\# Available memory:	     18,002 MB
+\# System memory:	     23,445 MB
+\# Maximum memory size:	     23,099 MB
+\# Max mem available:	     18,290 MB
+\# Initial memory used:	        288 MB
+\#        process size:	      1,872 MB
+\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 24.00/24.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		dtvt_16
+\o Working Directory:	dtvt16:/home/dtvt_16/duyDUT
+\# Process Id:		27856
+\o 
+\o COPYRIGHT (C) 1992-2022  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2022  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso13411, host=dtvt16). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 27856 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [15:52:41.461713] Configured Lic search path (21.01-s003): 5280@192.168.32.10
+\# Memory report: using         436 MB, process size 2,148 MB at UTC 2026.03.29 08:52:46.570
+\p > 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 27856' to open it when Virtuoso freezes.
+\# (PerfDiag): Loading backtrace from /home/dtvt_16/CDNS_Client/IC618-ISR28/tools/lib/64bit/cdnslibunwind.so
+\i _axlRunServices()
+\# [15:52:47.506707] Periodic Lic check successful
+\# [15:52:47.506712] Feature usage summary:
+\o Loading simui.cxt 
+\o [2026-03-29 15:52:47.522 +0700] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "dtvt16", "processid": 27856, "logfile": "/home/dtvt_16/duyDUT/logs_dtvt_16/logs0/Service6.log"}
+\# Available memory:         17,846 MB at UTC 2026.03.29 08:52:55.572
+\# Memory report: Maximum memory size now 18,377 MB at UTC 2026.03.29 08:52:55.572
+\# Thread usage report: 30 active threads, active load 1.40 at UTC 2026.03.29 08:52:55.572
+\o Loading vdsil.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

@@ -1,0 +1,299 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 09/08/2022 08:41 (sjfdcl1034) $
+\o Sub version:		sub-version  s284 
+\o Arguments:		-cdslib /home/dtvt_13/duyDUT/cds.lib -mpssession virtuoso28899 -mpshost dtvt_13 -mpsversion 6.18 
+\o Working Directory:	dtvt_13:/home/dtvt_13/duyDUT
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "basic"
+\a nrResizeWindow(cdsLibEditor list(41 592 500 400))
+\a nrResizeWindow(cdsLibEditor list(196 592 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 3 0)
+\o Active cell: 3 0 "bandgapcore"
+\a nrListItemAction(cdsLibEditor->mainTable 3 1)
+\o Active cell: 3 1 "/home/dtvt_16/duyDUT/mydesign/bandgapcore"
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 1 1)
+\o Active cell: 1 1 "/home/dtvt_16/CDNS_Client/IC618-ISR28/tools/dfII/etc/cdslib/artist/analogLib"
+\a nrListItemRename(cdsLibEditor->mainTable, 1 1 "/home/dtvt_13/CDNS_Client/IC618-ISR28/tools/dfII/etc/cdslib/artist/analogLib")
+\a nrListItemAction(cdsLibEditor->mainTable 5 1)
+\o Active cell: 5 1 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 1)
+\o Active cell: 0 1 "/home/dtvt_16/CDNS_Client/IC618-ISR28/tools/dfII/etc/cdslib/basic"
+\a nrListItemRename(cdsLibEditor->mainTable, 0 1 "/home/dtvt_13/CDNS_Client/IC618-ISR28/tools/dfII/etc/cdslib/basic")
+\a nrListItemAction(cdsLibEditor->mainTable 5 1)
+\o Active cell: 5 1 ""
+\a nrListItemAction(cdsLibEditor->mainTable 2 1)
+\o Active cell: 2 1 "/home/dtvt_16/CDNS_Client/sky130_release_0.1.0/libs/sky130_fd_pr_main"
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemRename(cdsLibEditor->mainTable, 2 1 "/home/dtvt_13/CDNS_Client/sky130_release_0.1.0/libs/sky130_fd_pr_main")
+\a nrListItemAction(cdsLibEditor->mainTable 3 1)
+\o Active cell: 3 1 "/home/dtvt_16/duyDUT/mydesign/bandgapcore"
+\a nrListItemAction(cdsLibEditor->mainTable 3 0)
+\o Active cell: 3 0 "bandgapcore"
+\a nrListItemAction(cdsLibEditor->mainTable 3 1)
+\o Active cell: 3 1 "/home/dtvt_16/duyDUT/mydesign/bandgapcore"
+\a cdsLibEditor->editDeletePopupButton->value = t
+\a nrListItemAction(cdsLibEditor->mainTable 4 0)
+\o Active cell: 4 0 "TC"
+\o Active cell: 4 0 ""
+\a nrResizeWindow(cdsLibEditor list(605 536 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->fileSaveButton->value = t
+\a nrResizeWindow(cdsLibEditor list(465 553 500 400))
+\a nrResizeWindow(cdsLibEditor list(305 587 500 400))
+\a nrResizeWindow(cdsLibEditor list(325 590 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->fileOpenButton->value = t
+\o INFO (CLE-137): Open both files to edit the union of library definition lists used by Cadence tools. 
+\o INFO (CLE-139): Most Cadence tools use only "cds.lib" for the library definition list.\n\nEditing "lib.defs" is optional for use with other programs.                                        
+\a fileOpenGroupDialog->openLibDefsCheckBox->value = nil
+\a fileOpenGroupDialog->openCdsLibText->value = "cds.lib"
+\a fileOpenGroupDialog->openLibDefsText->value = "lib.defs"
+\a fileOpenGroupDialog->openLibDefsText->value = ""
+\a nrSetWindowVisibility(fileOpenGroupDialog "show")
+\a nrSetCurrentWindow(fileOpenGroupDialog)
+\a nrResizeWindow(fileOpenGroupDialog list(330 676 490 228))
+\a fileOpenGroupDialog->openCdsLibDefault->value = t
+\a fileOpenGroupDialog->openCdsLibBrowse->value = t
+\a openCdsLibFileDialog->fileNameEdit->value = "cds.lib"
+\a nrSetWindowVisibility(openCdsLibFileDialog "show")
+\a nrSetCurrentWindow(openCdsLibFileDialog)
+\a nrResizeWindow(openCdsLibFileDialog list(266 585 619 410))
+\a openCdsLibFileDialog->Open->value = t
+\a openCdsLibFileDialog->fileNameEdit->value = ""
+\a openCdsLibFileDialog->Cancel->value = t
+\a nrSetCurrentWindow(fileOpenGroupDialog)
+\a nrResizeWindow(openCdsLibFileDialog list(266 548 619 410))
+\a fileOpenGroupDialog->helpButton->value = t
+\o Invoking help (fileOpenGroupHelp).
+\o Warning: Help topic wasn't shown... error was "The Help Viewer is not responding"
+\o Waiting for Help Viewer 60 secs. Status: 1
+\o Help Viewer is ready.
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(fileOpenGroupDialog list(330 639 490 228))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->editAddLibButton->value = t
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT"
+\a newLibraryDialog->useMappedName->value = nil
+\a nrSetWindowVisibility(newLibraryDialog "show")
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(310 492 531 513))
+\a newLibraryDialog->dirListWidget->value = "logs_dtvt_13"
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(newLibraryDialog list(310 455 531 513))
+\a cdsLibEditor->editAddLibButton->value = t
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT"
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(310 492 531 513))
+\a newLibraryDialog->libraryListBox->value = "mydesign"
+\a newLibraryDialog->useMappedName->value = t
+\a newLibraryDialog->libraryName->value = "mydesign"
+\a newLibraryDialog->libraryListBox->value = nil
+\a newLibraryDialog->useMappedName->value = nil
+\a newLibraryDialog->libraryName->value = ""
+\a nrListItemAction(newLibraryDialog->libraryListBox 1 0)
+\a newLibraryDialog->useMappedName->value = t
+\a newLibraryDialog->libraryName->value = "mydesign"
+\a newLibraryDialog->dirListWidget->value = "logs_dtvt_13"
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->useMappedName->value = nil
+\a newLibraryDialog->dirListWidget->value = "logs0"
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/logs0"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/logs0/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT"
+\a newLibraryDialog->dirListWidget->value = "logs_dtvt_13"
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT"
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13"
+\a newLibraryDialog->dirListWidget->value = "duyDUT"
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT"
+\a nrListItemAction(newLibraryDialog->dirListWidget 13 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "logs_dtvt_13"
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a newLibraryDialog->dirListWidget->value = "logs0"
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/logs0"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/logs0/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a newLibraryDialog->dirListWidget->value = "logs0"
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/logs0"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/logs0/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "duyDUT"
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13"
+\a newLibraryDialog->dirListWidget->value = "duyDUT"
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13"
+\a nrListItemAction(newLibraryDialog->dirListWidget 13 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT"
+\a newLibraryDialog->okButton->value = t
+\a nrListItemRename(cdsLibEditor->mainTable, 4 0 "mydesign")
+\a newLibraryDialog->libraryName->value = ""
+\a nrListItemAction(cdsLibEditor->mainTable 5 0)
+\o Active cell: 5 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(newLibraryDialog list(310 455 531 513))
+\a cdsLibEditor->fileSaveButton->value = t
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 4 0)
+\o Active cell: 4 0 "mydesign"
+\a cdsLibEditor->editAddLibButton->value = t
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(310 492 531 513))
+\a newLibraryDialog->libraryListBox->value = "skywater130"
+\a newLibraryDialog->useMappedName->value = t
+\a newLibraryDialog->libraryName->value = "skywater130"
+\a nrListItemAction(newLibraryDialog->libraryListBox 0 0)
+\a newLibraryDialog->libraryListBox->value = nil
+\a newLibraryDialog->useMappedName->value = nil
+\a newLibraryDialog->libraryName->value = ""
+\a newLibraryDialog->libraryListBox->value = "skywater130"
+\a newLibraryDialog->useMappedName->value = t
+\a newLibraryDialog->libraryName->value = "skywater130"
+\a newLibraryDialog->dirListWidget->value = "logs_dtvt_13"
+\a newLibraryDialog->libraryListBox->value = nil
+\a newLibraryDialog->useMappedName->value = nil
+\a newLibraryDialog->libraryName->value = ""
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "logs0"
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/logs0"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/logs0/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/logs0"
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_13"
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT"
+\a newLibraryDialog->dirListWidget->value = "logs_dtvt_16"
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16"
+\a nrListItemAction(newLibraryDialog->dirListWidget 2 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "logs1"
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16/logs1"
+\a nrListItemAction(newLibraryDialog->dirListWidget 2 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16/logs1/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16/logs1"
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16"
+\a newLibraryDialog->dirListWidget->value = "logs0"
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16/logs0"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16/logs0"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16/logs0/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16"
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT"
+\a newLibraryDialog->dirListWidget->value = "logs_dtvt_16"
+\a newLibraryDialog->filePathComboBox->value = "/home/dtvt_13/duyDUT/logs_dtvt_16"
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(newLibraryDialog list(310 455 531 513))
+\a exit(0)

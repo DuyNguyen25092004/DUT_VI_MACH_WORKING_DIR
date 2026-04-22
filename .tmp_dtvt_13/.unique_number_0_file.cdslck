@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      dtvt_13
+HostName                       dtvt_13
+ProcessIdentifier              13079
+ProcessCreationTime_UTC        1776011801
+ProcessCreationTime_Readable   Sun Apr 12 23:36:41 2026 +07
+AppIdentifier                  /home/dtvt_13/CDNS_Client/IC618-ISR28/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Lock file for generating unique number for ICRP command and log file directories.
+FilePathUsedToEditLock         /home/dtvt_13/duyDUT/.tmp_dtvt_13/.unique_number_0_file
+TimeEditLocked                 Sun Apr 12 23:38:53 2026 +07

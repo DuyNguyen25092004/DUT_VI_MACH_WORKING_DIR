@@ -1,0 +1,12 @@
+# File Created by dtvt_13 at Mon Apr  6 23:31:44 2026
+# assisted by CdsLibEditor
+# File Created by DTVT_16 at Sun Mar 29 14:22:34 2026
+# assisted by CdsLibEditor
+# File Created by Centos at Mon Apr 24 09:36:40 2023
+# assisted by CdsLibEditor
+DEFINE basic /home/dtvt_13/CDNS_Client/IC618-ISR28/tools/dfII/etc/cdslib/basic
+DEFINE analogLib /home/dtvt_13/CDNS_Client/IC618-ISR28/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE skywater130nm /home/dtvt_13/CDNS_Client/sky130_release_0.1.0/libs/sky130_fd_pr_main
+DEFINE TC /home/dtvt_13/duyDUT/mydesign/TC
+DEFINE mydesign mydesign
+DEFINE gmIdwl /home/dtvt_13/duyDUT/skywater130/gmIdwl

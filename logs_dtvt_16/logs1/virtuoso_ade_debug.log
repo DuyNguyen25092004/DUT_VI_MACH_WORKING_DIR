@@ -1,0 +1,6 @@
+[ADE GUI: 44fc5772-6310-4796-aeac-4a2e141ecf8e]
+[2026-03-29 13:07:20.281 +0700] [PROCESS] [cadence.virtuoso.ade.gui] - /home/dtvt_16/duyDUT/.tmp_dtvt_16/.cmddir1/swiftLoggingService0 is starting {"logfile": "/home/dtvt_16/duyDUT/logs_dtvt_16/logs1/LoggingService0.log"}
+[2026-03-29 13:07:20.386 +0700] [PROCESS] [cadence.virtuoso.ade.gui] - /home/dtvt_16/duyDUT/.tmp_dtvt_16/.cmddir1/swiftNetlistService1 is starting {"logfile": "/home/dtvt_16/duyDUT/logs_dtvt_16/logs1/Service1.log"}
+[2026-03-29 13:07:20.387 +0700] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '12222' is starting up on host 'dtvt16' {"logfile": "/home/dtvt_16/duyDUT/logs_dtvt_16/logs1/LoggingService0.log"}
+[2026-03-29 13:07:26.103 +0700] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '12277' is starting up on host 'dtvt16' {"logfile": "/home/dtvt_16/duyDUT/logs_dtvt_16/logs1/Service1.log"}
+[2026-03-29 13:07:38.968 +0700] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '12222' stopped with exit code '0' {"logfile": "/home/dtvt_16/duyDUT/logs_dtvt_16/logs1/LoggingService0.log"}
