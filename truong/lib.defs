@@ -1,0 +1,5 @@
+# OpenAccess File Created by dtvt_13 at Thu Apr  2 01:15:17 2026
+# assisted by CdsLibEditor
+DEFINE tsmcN65 /home/dtvt_13/WORK/65NTSMC/tsmcN65
+DEFINE basic /home/dtvt_13/CDNS_Client/IC618-ISR28/tools/dfII/etc/cdslib/basic
+DEFINE analogLib /home/dtvt_13/CDNS_Client/IC618-ISR28/tools/dfII/etc/cdslib/artist/analogLib

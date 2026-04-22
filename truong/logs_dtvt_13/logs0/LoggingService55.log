@@ -1,0 +1,3 @@
+[Logging Service: 55]
+[2026-04-12 03:10:28.196 +0700] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/dtvt_13/truong/my_lib/nmos_tb/maestro/results/maestro"}
+[2026-04-12 03:10:28.197 +0700] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "dtvt_13", "processid": 27779, "logfile": "/home/dtvt_13/truong/logs_dtvt_13/logs0/LoggingService55.log"}

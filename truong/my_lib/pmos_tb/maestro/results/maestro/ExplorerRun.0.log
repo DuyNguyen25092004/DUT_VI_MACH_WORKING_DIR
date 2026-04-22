@@ -1,0 +1,13 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Apr 12 21:33:37 2026 
+Best design point: 1
+Design specs: 
+	my_lib_pmos_tb_1	corner	Nominal - 
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 11
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Sun Apr 12 21:36:47 2026 

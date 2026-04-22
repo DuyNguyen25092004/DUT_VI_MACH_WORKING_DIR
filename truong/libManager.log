@@ -1,0 +1,77 @@
+\o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 09/08/2022 08:39 (sjfdcl1034) $
+\o Sub version:		sub-version  s284 
+\o Arguments:		-unmapped -mpssession virtuoso28387 -mpshost dtvt_13 
+\o Working Directory:	dtvt_13:/home/dtvt_13/truong
+\o 64-bit offsets
+\o Qt version: 		5.9.1
+\o changeWorkingDir("/home/dtvt_13/truong") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home/dtvt_13/truong/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: The directory: '/home/centos/WORK/gpdk045_v_6_0' does not exist
+\w 	but was defined in libFile '/home/dtvt_13/CDNS_Client/IC618-ISR28/share/cdssetup/cds.lib' for Lib 'gpdk045_v_6_0'.
+\a nrResizeWindow(cdsLibManager list(179 211 1440 723))
+\a cdsLibManager->libListBox->value = "my_lib"
+\a cdsLibManager->libLineEdit->value = "my_lib"
+\a cdsLibManager->cellListBox->value = "ota_amp_tb"
+\a cdsLibManager->cellLineEdit->value = "ota_amp_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/home/centos/WORK/gpdk045_v_6_0' does not exist
+\w 	but was defined in libFile '/home/dtvt_13/CDNS_Client/IC618-ISR28/share/cdssetup/cds.lib' for Lib 'gpdk045_v_6_0'.
+\a cdsLibManager->libListBox->value = "my_lib"
+\a cdsLibManager->libLineEdit->value = "my_lib"
+\a cdsLibManager->cellListBox->value = "ota_amp_tb"
+\a cdsLibManager->cellLineEdit->value = "ota_amp_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\w Warning: The directory: '/home/centos/WORK/gpdk045_v_6_0' does not exist
+\w 	but was defined in libFile '/home/dtvt_13/CDNS_Client/IC618-ISR28/share/cdssetup/cds.lib' for Lib 'gpdk045_v_6_0'.
+\a cdsLibManager->libListBox->value = "my_lib"
+\a cdsLibManager->libLineEdit->value = "my_lib"
+\a cdsLibManager->cellListBox->value = "ota_amp_tb"
+\a cdsLibManager->cellLineEdit->value = "ota_amp_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)
