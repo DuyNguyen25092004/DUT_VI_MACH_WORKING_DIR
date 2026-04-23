@@ -1,0 +1,6 @@
+[ADE GUI: 1c45c44f-afa3-41c9-8ce2-1178e1da73fd]
+[2026-04-22 11:38:22.599 +0700] [PROCESS] [cadence.virtuoso.ade.gui] - /home/dtvt_05/DUT_VI_MACH_WORKING_DIR/truong/.tmp_dtvt_05/.cmddir0/swiftLoggingService0 is starting {"logfile": "/home/dtvt_05/DUT_VI_MACH_WORKING_DIR/truong/logs_dtvt_05/logs0/LoggingService0.log"}
+[2026-04-22 11:38:22.702 +0700] [PROCESS] [cadence.virtuoso.ade.gui] - /home/dtvt_05/DUT_VI_MACH_WORKING_DIR/truong/.tmp_dtvt_05/.cmddir0/swiftNetlistService1 is starting {"logfile": "/home/dtvt_05/DUT_VI_MACH_WORKING_DIR/truong/logs_dtvt_05/logs0/Service1.log"}
+[2026-04-22 11:38:22.702 +0700] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '21210' is starting up on host 'dtvt05' {"logfile": "/home/dtvt_05/DUT_VI_MACH_WORKING_DIR/truong/logs_dtvt_05/logs0/LoggingService0.log"}
+[2026-04-22 11:38:23.397 +0700] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '21274' is starting up on host 'dtvt05' {"logfile": "/home/dtvt_05/DUT_VI_MACH_WORKING_DIR/truong/logs_dtvt_05/logs0/Service1.log"}
+[2026-04-22 11:38:42.303 +0700] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '21210' stopped with exit code '0' {"logfile": "/home/dtvt_05/DUT_VI_MACH_WORKING_DIR/truong/logs_dtvt_05/logs0/LoggingService0.log"}

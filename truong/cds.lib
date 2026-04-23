@@ -1,3 +1,5 @@
+# File Created by DTVT_05 at Wed Apr 22 10:45:04 2026
+# assisted by CdsLibEditor
 # File Created by dtvt_13 at Thu Apr  2 01:25:03 2026
 # assisted by CdsLibEditor
 SOFTINCLUDE /home/dtvt_13/CDNS_Client/IC618-ISR28/share/cdssetup/cds.lib
@@ -5,7 +7,7 @@ UNDEFINE analogLib
 UNDEFINE basic
 #Removed by ddDeleteObj: DEFINE my_lib /home/dtvt_13/truong/my_lib
 #Removed by ddDeleteObj: DEFINE my_lib /home/dtvt_13/WORK/my_lib
-DEFINE basic /home/dtvt_13/CDNS_Client/IC20.1-ISR28/tools/dfII/etc/cdslib/basic
-DEFINE analogLib /home/dtvt_13/CDNS_Client/IC20.1-ISR28/tools/dfII/etc/cdslib/artist/analogLib
-DEFINE tsmcN65 /home/dtvt_13/WORK/65NTSMC/tsmcN65
-DEFINE my_lib /home/dtvt_13/truong/my_lib
+DEFINE basic /home/dtvt_05/CDNS_Client/IC20.1-ISR28/tools/dfII/etc/cdslib/basic
+DEFINE analogLib /home/dtvt_05/CDNS_Client/IC20.1-ISR28/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE tsmcN65 /home/dtvt_05/Downloads/65NTSMC/tsmcN65
+DEFINE my_lib /home/dtvt_05/DUT_VI_MACH_WORKING_DIR/truong/my_lib

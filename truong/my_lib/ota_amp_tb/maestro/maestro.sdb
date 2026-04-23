@@ -57,6 +57,20 @@
 						<evalType>point</evalType>
 					</output>
 				</outputs>
+				<vars>
+					<var>L_NM3_M4
+						<value>380n</value>
+					</var>
+					<var>W_NM3_M4
+						<value>900n</value>
+					</var>
+					<var>L_PM1_M2
+						<value>380n</value>
+					</var>
+					<var>W_PM1_M2
+						<value>8u</value>
+					</var>
+				</vars>
 			</test>
 		</tests>
 		<extensions>
@@ -92,10 +106,16 @@
 			<plottingoption>defaultplottingtemplate
 				<value></value>
 			</plottingoption>
+			<plottingoption>autoplotmode
+				<value>Replace</value>
+			</plottingoption>
 		</plottingoptions>
 		<exploreroptions>
 			<exploreroption>waveformtemplate
 				<value>(None)</value>
+			</exploreroption>
+			<exploreroption>autoplotmode
+				<value>Replace</value>
 			</exploreroption>
 		</exploreroptions>
 		<incrementalsimsetup>
@@ -165,6 +185,20 @@
 								<evalType>point</evalType>
 							</output>
 						</outputs>
+						<vars>
+							<var>L_NM3_M4
+								<value>380n</value>
+							</var>
+							<var>W_NM3_M4
+								<value>900n</value>
+							</var>
+							<var>L_PM1_M2
+								<value>380n</value>
+							</var>
+							<var>W_PM1_M2
+								<value>8u</value>
+							</var>
+						</vars>
 					</test>
 				</tests>
 				<extensions>
@@ -256,6 +290,9 @@
 					<exploreroption>waveformtemplate
 						<value>(None)</value>
 					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
 				</exploreroptions>
 				<incrementalsimsetup>
 					<useincremental>0</useincremental>
@@ -272,21 +309,21 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Apr 19 13:05:11 2026</timestamp>
-			<uuid>{d569714b-a83b-4a3a-9889-412143809830}</uuid>
-			<resultsname>/home/dtvt_13/truong/my_lib/ota_amp_tb/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
+			<timestamp>Apr 22 11:31:03 2026</timestamp>
+			<uuid>{27cd9f4f-94ec-4786-835e-41c5bf664cfe}</uuid>
+			<resultsname>/home/dtvt_05/DUT_VI_MACH_WORKING_DIR/truong/my_lib/ota_amp_tb/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/dtvt_13_dtvt_13_130511379</localpsfdir>
-			<psfdir>/home/dtvt_13/simulation/my_lib/ota_amp_tb/maestro/results/maestro/ExplorerRun.0</psfdir>
+			<localpsfdir>/tmp/dtvt05_dtvt_05_113103602</localpsfdir>
+			<psfdir>/home/dtvt_05/simulation/my_lib/ota_amp_tb/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/my_lib/ota_amp_tb/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/home/dtvt_13/truong/my_lib/ota_amp_tb/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/home/dtvt_13/truong/my_lib/ota_amp_tb/maestro/results/maestro/ExplorerRun.0.log</runlog>
+			<loggingdatabasedir>/home/dtvt_05/DUT_VI_MACH_WORKING_DIR/truong/my_lib/ota_amp_tb/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/home/dtvt_05/DUT_VI_MACH_WORKING_DIR/truong/my_lib/ota_amp_tb/maestro/results/maestro/ExplorerRun.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>

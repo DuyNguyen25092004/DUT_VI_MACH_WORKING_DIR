@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      dtvt_05
+HostName                       dtvt05.taile60e1a.ts.net
+ProcessIdentifier              16169
+ProcessCreationTime_UTC        1776832240
+ProcessCreationTime_Readable   Wed Apr 22 11:30:40 2026 +07
+AppIdentifier                  Unknown Application
+OSType                         lnx86
+ReasonForPlacingEditLock       lock for simulation monitor log file
+FilePathUsedToEditLock         /home/dtvt_05/DUT_VI_MACH_WORKING_DIR/truong/logs_dtvt_05/logs0/Job9.log
+TimeEditLocked                 Wed Apr 22 11:30:40 2026 +07
